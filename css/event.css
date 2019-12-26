@@ -903,7 +903,7 @@ nav {
 .name {
     display: flex;
     flex-direction: column;
-    color:blue;
+    
 }
 
 .phone-no a {
