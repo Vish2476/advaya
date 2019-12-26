@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>545a48z parallaxo gateway</title>
+                <!-- css -->
+                <link rel="stylesheet" href="main.css">
+            
+                <!-- google fonts -->
+                <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+            
+                  <!-- icons -->
+                  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+            
+                <!-- jquery -->
+                <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+                <!-- JQuery -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+            
+                <!-- gsap -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+            
+                <!-- font awesome icons -->
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+            </head>
+
+</head>
+<body>
+
+
+
+
+<div class="enterpos">
+
+
+    <SCRIPT>
+        function passWord() {
+        var testV = 1;
+        var pass1 = prompt('Enter the password',' ');
+        while (testV < 3) {
+        if (!pass1)
+        history.go(-1);
+        if (pass1.toLowerCase() == "meinkamph") {
+        alert('You Got it Right!');
+        window.open('protectpage.html');
+        break;
+        }
+        testV+=1;
+        var pass1 =
+        prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+        }
+        if (pass1.toLowerCase()!="password" & testV ==3)
+        history.go(-1);
+        return " ";
+        }
+        </SCRIPT>
+        <div class="button">
+        <CENTER>
+        <FORM>
+        <input type="button" value="Enter" onClick="passWord()">
+        </FORM>
+        </CENTER>
+</div>
+
+</div>   
+        <div class="social-icon">
+                <ul>
+                      <li><a href="https://www.facebook.com/advayaofficial/" style="color: black" rel="noopener noreferrer" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                      <li><a href="https://www.instagram.com/advayaofficial/" style="color: black" rel="noopener noreferrer" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                      <li><a href="https://www.youtube.com/channel/UCCrtm7dNcQp1dsULnYZFj5g" style="color: black" rel="noopener noreferrer" target="_blank"><ion-icon name="logo-youtube"></a></ion-icon></li>
+                     <br> <li><a href="https://advaya.live/" style="color: black" rel="noopener noreferrer" target="_blank">advaya.live</a></li>
+                </ul>
+    </div>
+
+
+
+</body>
+</html>
