@@ -836,6 +836,15 @@ nav {
         margin-left: 0%;
         transform: translateX(-50%);
     }
+    .subevents {
+        position: relative;
+        margin: 4% 20%;
+        height: 200px;
+        width: 192px;
+    
+        border-radius: 3rem;
+        transition: .2s all ease;
+    }
 }
 
 
