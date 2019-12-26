@@ -138,8 +138,3 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
 });
-if(window.screen.width<520){
-document.addEventListener('DOMContentLoaded', () => {
-   alert("For Better Experience Use Desktop.") 
-});
-}
