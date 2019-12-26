@@ -1,0 +1,4 @@
+AuthUserFile advaya/parallaxoTEST1/.htpasswd
+AuthType Basic
+AuthName "My Secret Folder"
+Require valid-user
