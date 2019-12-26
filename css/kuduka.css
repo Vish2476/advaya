@@ -1,0 +1,264 @@
+
+.kuduk-flex{
+    z-index: 5;
+    top: 35%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+    height: 15rem;
+    }
+    .kuduk-flex p{
+      font-size: larger;
+      z-index: 5;
+      top: 60%;
+      left: -50%;
+      position: relative;
+      transform: translate(-50%, -50%);
+      color: aliceblue;
+      width: 40rem;
+      height: 15rem;
+      font-family: 'Poppins', sans-serif;
+      opacity: 50%;
+      }
+    .kuduk-logo{
+      z-index: 1;
+      position: absolute;
+      top: 35%;
+      left: 55%;
+      width: 20%;
+      height: 20%;
+    
+    }
+    .phone-no, .name {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Poppins', sans-serif;
+    }
+    .phone-no {
+      margin-left: 7%;
+      font-family: 'Poppins', sans-serif;
+    }
+    .phone-no a{
+      text-decoration: none; 
+      color: aliceblue;
+      font-family: 'Poppins', sans-serif;
+      
+    }
+    .phone-list {
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 250%;
+    left: -50%;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+    height: 15rem;
+    font-size: larger;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    .con {
+      font-size: larger;
+      z-index: 5;
+      top: 30%;
+      left: 30%;
+      position: relative;
+      transform: translate(-50%, -50%);
+      color: aliceblue;
+      width: 40rem;
+      height: 15rem;
+      font-family: 'Poppins', sans-serif;
+      opacity: 50%;
+    }
+    .quote{
+      font-size: larger;
+      font-size: x-large;
+      z-index: 5;
+      top: 130%;
+      left: 50%;
+      position: relative;
+      transform: translate(-50%, -50%);
+      color: aliceblue;
+      width: 35rem;
+      height: 15rem;
+      font-family: 'Poppins', sans-serif;
+      opacity: 15%;
+    }
+    @media screen and (max-width: 480px) {
+      .kuduk-flex{
+        z-index: 1;
+        top: 45%;
+        left: 25%;
+        position: relative;
+        transform: translate(-50%, -50%);
+        width: 10rem;
+        height: 10rem;
+        }
+        .kuduk-flex p{
+          font-size: 3.5mm;
+          z-index: 5;
+          top: 126%;
+          left: 125%;
+          position: relative;
+          transform: translate(-50%, -50%);
+          color: aliceblue;
+          width: 26rem;
+          height: 25rem;
+          font-family: 'Poppins', sans-serif;
+          opacity: 50%;
+          }
+        .kuduk-logo{
+          z-index: 1;
+          position: absolute;
+          top: 28%;
+          left: 60%;
+          width: 30%;
+          height: 30%;
+        
+        }
+        .phone-no, .name {
+          display: flex;
+          flex-direction: column;
+          font-family: 'Poppins', sans-serif;
+        }
+        .phone-no {
+          margin-left: 7%;
+          font-family: 'Poppins', sans-serif;
+        }
+        .phone-no a{
+          text-decoration: none; 
+          color: aliceblue;
+          font-family: 'Poppins', sans-serif;
+          
+        }
+        .phone-list {
+        display: flex;
+        z-index: 1;
+        position: absolute;
+        top: 290%;
+        left: 180%;
+        transform: translate(-50%, -50%);
+        width: 15rem;
+        height: 15rem;
+        font-size:3.5mm;
+        color: aliceblue;
+        font-family: 'Poppins', sans-serif;
+        
+        }
+        .con {
+          font-size: larger;
+          z-index: 5;
+          top: 40%;
+          left: 70%;
+          position: relative;
+          transform: translate(-50%, -50%);
+          color: aliceblue;
+          width: 40rem;
+          height: 15rem;
+          font-family: 'Poppins', sans-serif;
+          opacity: 50%;
+        }
+        .quote{
+          font-size: 4mm;
+          z-index: 5;
+          top: -70%;
+          left: 75%;
+          position: relative;
+          transform: translate(-50%, -50%);
+          color: aliceblue;
+          width: 15rem;
+          height: 15rem;
+          font-family: 'Poppins', sans-serif;
+          opacity: 15%;
+        }
+      }
+      @media screen and (max-width: 362px) {
+        .kuduk-flex{
+          z-index: 1;
+          top: 35%;
+          left: 15%;
+          position: relative;
+          transform: translate(-50%, -50%);
+          width: 5rem;
+          height: 5rem;
+          }
+          .kuduk-flex p{
+            font-size: 3.2mm;
+            z-index: 5;
+            top: 270%;
+            left: 195%;
+            position: relative;
+            transform: translate(-50%, -50%);
+            color: aliceblue;
+            width: 20rem;
+            height: 25rem;
+            font-family: 'Poppins', sans-serif;
+            opacity: 50%;
+            }
+          .kuduk-logo{
+            z-index: 1;
+            position: absolute;
+            top: 38%;
+            left: 75%;
+            width: 20%;
+            height: 20%;
+          
+          }
+          .phone-no, .name {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Poppins', sans-serif;
+          }
+          .phone-no {
+            margin-left: 7%;
+            font-family: 'Poppins', sans-serif;
+          }
+          .phone-no a{
+            text-decoration: none; 
+            color: aliceblue;
+            font-family: 'Poppins', sans-serif;
+            
+          }
+          .phone-list {
+          display: flex;
+          z-index: 1;
+          position: absolute;
+          top: 570%;
+          left: 135%;
+          transform: translate(-50%, -50%);
+          width: 15rem;
+          height: 15rem;
+          font-size:3.5mm;
+          color: aliceblue;
+          font-family: 'Poppins', sans-serif;
+          
+          }
+          .con {
+            font-size: larger;
+            z-index: 5;
+            top: 40%;
+            left: 70%;
+            position: relative;
+            transform: translate(-50%, -50%);
+            color: aliceblue;
+            width: 40rem;
+            height: 15rem;
+            font-family: 'Poppins', sans-serif;
+            opacity: 50%;
+          }
+          .quote{
+            font-size: 3.5mm;
+            z-index: 5;
+            top: -50%;
+            left: 225%;
+            position: relative;
+            transform: translate(-50%, -50%);
+            color: aliceblue;
+            width: 20rem;
+            height: 15rem;
+            font-family: 'Poppins', sans-serif;
+            opacity: 15%;
+          }
+        }

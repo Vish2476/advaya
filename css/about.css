@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#about {
+  width: 100%;
+}
+
+.about-container {
+  height: 50vh;
+  display: flex;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2%;
+  position: relative;
+}
+
+.abt-decription {
+  flex: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.abt-title {
+  margin-left: 1rem;
+  width: 60%;
+  height: 6vh;
+}
+
+.abt-title h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.abt-details p {
+  font-size: .8rem;
+  align-items: center;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.abt-details {
+  padding: 2rem;
+  flex: 2;
+  margin-left: 1rem;
+  background-color: #1d2326;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  width: 97%;
+}
+
+.abt-img {
+  flex: 1;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  border-top-right-radius: 5rem;
+  background: #000000;
+  width: 30%;
+  height: 50vh;
+}
+
+@media screen and (max-width:741px) {
+  .abt-title h2 {
+    font-size: 2rem;
+    height: 3vh;
+  }
+
+  .about-container {
+    width: 90%;
+    height: 40vh;
+  }
+
+  .abt-img {
+    height: 40vh;
+  }
+
+  .abt-details {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width:934px) {
+  .abt-title h2 {
+    font-size: 2.5rem;
+    height: 3vh;
+  }
+}
+
+@media screen and (max-width:611px) {
+  .abt-title h2 {
+    font-size: 2rem;
+    height: 3vh;
+  }
+}
+
+@media screen and (max-width:535px) {
+  .abt-title p {
+    font-size: .5rem;
+  }
+
+  .abt-details {
+    padding: 1rem;
+  }
+
+}
+
+@media screen and (max-width:448px) {
+  .about-container {
+    width: 95%;
+    height: 40vh;
+  }
+
+  .abt-details {
+    width: 95%;
+  }
+
+}
+@media screen and (max-width:1307px){
+  .abt-title h2 {
+    margin-top: .4rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width:354px) {
+  .about-container {
+    width: 95%;
+    height: 40vh;
+  }
+
+  .abt-img {
+    height: 40vh;
+    widows: 100%;
+  }
+
+  .abt-details {
+    width: 95%;
+  }
+
+  .abt-details p {
+    padding: .5rem;
+    font-size: .7rem;
+  }
+
+  .abt-title h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.about-container:nth-child(2) .abt-details {
+  margin-left: 0;
+}
+
+.about-container:nth-child(2) .abt-title {
+  margin-left: 0;
+}
+
+.contact-container {
+  margin-bottom: -5%;
+  margin-top: 5%;
+  background: #1d2326;
+  width: 100%;
+  height: 40vh;
+}
+
+.contact-logo {
+  position: absolute;
+}
+
+.contact-logo img {
+  margin-top: 5%;
+  height: 100%;
+}
+
+.flx {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.ctn,
+.us {
+  color: #ffffff;
+}
