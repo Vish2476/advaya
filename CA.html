@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A D V A Y A</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+
+
+
+</head>
+<body>
+
+    <ul id="cafe-list"></ul>
+    <main>
+        <form id="caform" > 
+            Registration Form<br>
+            <label for="Name">First Name</label><br>
+            <input type="text" name="Name" id="caname" required ><br>
+            <label for="clgName">College</label><br>
+            <input type="text" name="clgName" id="clgName" required ><br>
+            <label for="clgId">College ID</label><br>
+            <input type="text" name="clgId" id="clgId" required ><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required ><br>
+            <label for="phone">Phone</label><br>
+            <input type="text" name="phone" id="phone" minlength="10" maxlength="10"  required ><br>
+            <input type="submit" id="regBtn" class="btn waves-effect waves-light" value="Register">
+        </form>
+    </main>
+
+    
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD7xJR9q8kQdNJoupkiGIntZ5Q5Ksf6JXU",
+    authDomain: "advaya-15392.firebaseapp.com",
+    databaseURL: "https://advaya-15392.firebaseio.com",
+    projectId: "advaya-15392",
+    storageBucket: "advaya-15392.appspot.com",
+    messagingSenderId: "166123736266",
+    appId: "1:166123736266:web:119f85fec654534d397833",
+    measurementId: "G-XVYLEKPL1S"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+
+
+</script>
+    <script src="ap.js"></script>
+</body>
+</html>
