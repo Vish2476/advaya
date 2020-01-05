@@ -125,8 +125,7 @@ body {
     /* hi-res laptops and desktops */
     #gsTitle {
         position: fixed;
-        top: 6%;
-        margin-left:-4%;
+        top: 40%;
         color: #fff;
         font-size: 170px;
         font-family: "oswald", sans-serif;
@@ -134,7 +133,7 @@ body {
     .logo{
       width: 50px;
       margin-top: 5%;
-      margin-left: 8%;
+      margin-left: -4%;
       position: fixed;
     }
 
