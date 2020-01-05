@@ -1,0 +1,108 @@
+
+		html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+}
+
+#gsTitle {
+  position: relative;
+  color: #fff;
+  font-size: 108px;
+  font-family: "oswald", sans-serif;
+}
+
+.gsTitle-title {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.gsTitle-color {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  margin: -.05em 0 0 .05em;
+  color: dodgerblue;
+  mix-blend-mode: darken;
+  transition: .1s;
+  transition-property: opacity, margin;
+}
+
+.gsTitle-b {
+  margin: .05em 0 0 -.05em;
+  color: tomato;
+  mix-blend-mode: color-burn;
+}
+
+.gsTitle-glitched .gsTitle-color {
+  opacity: .4;
+}
+
+
+@media (min-width:320px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */
+    #gsTitle {
+        position: relative;
+        color: #fff;
+        font-size: 50px;
+        font-family: "oswald", sans-serif;
+      }
+      
+
+}
+@media (min-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    #gsTitle {
+        position: relative;
+        color: #fff;
+        font-size: 70px;
+        font-family: "oswald", sans-serif;
+      }
+      
+}
+@media (min-width:641px)  { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    #gsTitle {
+        position: relative;
+        color: #fff;
+        font-size: 95px;
+        font-family: "oswald", sans-serif;
+      }
+      
+
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+    #gsTitle {
+        position: relative;
+        color: #fff;
+        font-size: 110px;
+        font-family: "oswald", sans-serif;
+      }
+      
+}
+@media (min-width:1025px) { 
+    
+    /* big landscape tablets, laptops, and desktops */ 
+    #gsTitle {
+        position: relative;
+        color: #fff;
+        font-size: 130px;
+        font-family: "oswald", sans-serif;
+      }
+      
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */
+    #gsTitle {
+        position: relative;
+        color: #fff;
+        font-size: 170px;
+        font-family: "oswald", sans-serif;
+      }
+}
