@@ -50,12 +50,12 @@ body {
       }
       .logo{
         width:50px;
-        margin-top: 5%;
+        margin-top: 25%;
         margin-left: 20%;
         position: fixed;
       }
       p {
-        font-size: 40px;
+        font-size: 50px;
         margin-top: 500px;
         font-family: "oswald", sans-serif;
          color: #ffffff;
@@ -193,7 +193,7 @@ body {
         font-family: "oswald", sans-serif;
       }
     .logo{
-      width: 50px;
+      width: 70px;
       margin-top: 5%;
       margin-left: 8%;
       position: fixed;
@@ -208,7 +208,7 @@ body {
     .text{
       position: fixed;
       font-size: 40px;
-      margin-top: 150px;
+      margin-top: 180px;
       font-family: "oswald", sans-serif;
       color: #ffffff;
     }
