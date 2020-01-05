@@ -124,7 +124,7 @@ body {
 @media (min-width:1281px) { 
     /* hi-res laptops and desktops */
     #gsTitle {
-        position: relative;
+        position: fixed;
         top: 6%;
         margin-left:-4%;
         color: #fff;
