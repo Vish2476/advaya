@@ -52,6 +52,7 @@ body {
         width:40px;
         margin-top: 5%;
         margin-left: -7%;
+        top: 10%;
         position: fixed;
       }
       
@@ -110,6 +111,7 @@ body {
     #gsTitle {
         position: fixed;
         color: #fff;
+        top: 30%;
         font-size: 130px;
         font-family: "oswald", sans-serif;
       }
@@ -125,7 +127,7 @@ body {
     /* hi-res laptops and desktops */
     #gsTitle {
         position: fixed;
-        top: 40%;
+        top: 30%;
         color: #fff;
         font-size: 170px;
         font-family: "oswald", sans-serif;
@@ -133,6 +135,7 @@ body {
     .logo{
       width: 50px;
       margin-top: 5%;
+      top: 8%;
       margin-left: -4%;
       position: fixed;
     }
