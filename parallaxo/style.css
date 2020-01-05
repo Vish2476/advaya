@@ -125,7 +125,8 @@ body {
     /* hi-res laptops and desktops */
     #gsTitle {
         position: relative;
-        top: 5%;
+        top: 6%;
+        margin-left:-4%;
         color: #fff;
         font-size: 170px;
         font-family: "oswald", sans-serif;
