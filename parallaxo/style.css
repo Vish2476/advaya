@@ -1,5 +1,5 @@
 
-		html,
+		html,header,
 body {
   height: 100%;
 }
@@ -11,12 +11,6 @@ body {
   background-color: #222;
 }
 
-#gsTitle {
-  position: relative;
-  color: #fff;
-  font-size: 108px;
-  font-family: "oswald", sans-serif;
-}
 
 .gsTitle-title {
   margin: 0;
@@ -48,10 +42,17 @@ body {
 @media (min-width:320px)  { 
     /* smartphones, iPhone, portrait 480x320 phones */
     #gsTitle {
-        position: relative;
-        color: #fff;
-        font-size: 50px;
+        position: fixed;
+        top: 35%;
+        color: #ffffff;
+        font-size: 60px;
         font-family: "oswald", sans-serif;
+      }
+      .logo{
+        width:40px;
+        margin-top: 5%;
+        margin-left: -7%;
+        position: fixed;
       }
       
 
@@ -59,30 +60,47 @@ body {
 @media (min-width:481px)  { 
     /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
     #gsTitle {
-        position: relative;
+        position: fixed;
         color: #fff;
         font-size: 70px;
         font-family: "oswald", sans-serif;
+      }
+      .logo{
+        width: 42px;
+        margin-top: 5%;
+        margin-left: -3%;
+        position: fixed;
       }
       
 }
 @media (min-width:641px)  { 
     /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
     #gsTitle {
-        position: relative;
+        position: fixed;
         color: #fff;
         font-size: 95px;
         font-family: "oswald", sans-serif;
       }
-      
+      .logo{
+        width: 44px;
+        margin-top: 5%;
+        margin-left: -4%;
+        position: fixed;
+      }
 
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
     #gsTitle {
-        position: relative;
+        position: fixed;
         color: #fff;
         font-size: 110px;
         font-family: "oswald", sans-serif;
+      }
+      .logo{
+        width: 46px;
+        margin-top: 5%;
+        margin-left: -4%;
+        position: fixed;
       }
       
 }
@@ -90,10 +108,16 @@ body {
     
     /* big landscape tablets, laptops, and desktops */ 
     #gsTitle {
-        position: relative;
+        position: fixed;
         color: #fff;
         font-size: 130px;
         font-family: "oswald", sans-serif;
+      }
+      .logo{
+        width: 48px;
+        margin-top: 5%;
+        margin-left: -4%;
+        position: fixed;
       }
       
 }
@@ -101,8 +125,16 @@ body {
     /* hi-res laptops and desktops */
     #gsTitle {
         position: relative;
+        top: 5%;
         color: #fff;
         font-size: 170px;
         font-family: "oswald", sans-serif;
       }
+    .logo{
+      width: 50px;
+      margin-top: 5%;
+      margin-left: 8%;
+      position: fixed;
+    }
+
 }
