@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
-		html,header,
-body {
+		html,body {
   height: 100%;
 }
 
@@ -49,10 +48,11 @@ body {
         font-family: 'Bebas Neue', cursive;
       }
       .logo{
+        position: relative;
         width:60px;
-        margin-top: 25%;
-        margin-left: 20%;
-        position: fixed;
+        margin-top: 0%;
+        margin-left: 110%;
+        
       }
       p {
         position: fixed;
@@ -64,7 +64,7 @@ body {
     .text{
       position: fixed;
       font-size: 30px;
-      margin-top: 150px;
+      margin-top: 250px;
       font-family: 'Bebas Neue', cursive;
       color: #ffffff;
     }
@@ -97,10 +97,10 @@ body {
         font-family: 'Bebas Neue', cursive;
       }
       .logo{
-        width: 42px;
-        margin-top: 5%;
-        margin-left: 22%;
         position: fixed;
+        width: 42px;
+        margin-top: 15%;
+        margin-left: %;
       }
       p {
         font-size: 50px;
@@ -125,7 +125,7 @@ body {
        
     }
     .circle2{
-      width: 100%;
+      width: 120%;
       position: fixed;
       animation: rotation 100s infinite linear;
       display: block;
