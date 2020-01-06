@@ -36,7 +36,7 @@ function myFunction(item, index) {
                 flag=false;
             }}
     if(flag){
-    //alert('Registered successfully! . We will get to you via email soon.');
+    alert('Registered successfully! . We will get to you via email soon.');
       
     db.collection('ca').doc(form.email.value).set({
         caname: form.caname.value,
