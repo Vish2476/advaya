@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 		html,header,
 body {
   height: 100%;
@@ -46,7 +46,7 @@ body {
         top: 35%;
         color: #ffffff;
         font-size: 60px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
       }
       .logo{
         width:60px;
@@ -55,17 +55,36 @@ body {
         position: fixed;
       }
       p {
+        position: fixed;
         font-size: 50px;
         margin-top: 500px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
          color: #ffffff;
     }
     .text{
       position: fixed;
       font-size: 30px;
       margin-top: 150px;
-      font-family: "oswald", sans-serif;
+      font-family: 'Bebas Neue', cursive;
       color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 100%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
     }
 
 }
@@ -75,7 +94,7 @@ body {
         position: fixed;
         color: #fff;
         font-size: 70px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
       }
       .logo{
         width: 42px;
@@ -86,15 +105,33 @@ body {
       p {
         font-size: 50px;
         margin-top: 500px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
          color: #ffffff;
     }
     .text{
       position: fixed;
       font-size: 30px;
       margin-top: 150px;
-      font-family: "oswald", sans-serif;
+      font-family: 'Bebas Neue', cursive;
       color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 100%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
     }
 }
 @media (min-width:641px)  { 
@@ -103,7 +140,7 @@ body {
         position: fixed;
         color: #fff;
         font-size: 95px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
       }
       .logo{
         width: 44px;
@@ -114,15 +151,33 @@ body {
       p {
         font-size: 50px;
         margin-top: 500px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
          color: #ffffff;
     }
     .text{
       position: fixed;
       font-size: 40px;
       margin-top: 150px;
-      font-family: "oswald", sans-serif;
+      font-family: 'Bebas Neue', cursive;
       color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 100%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
     }
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -130,7 +185,7 @@ body {
         position: fixed;
         color: #fff;
         font-size: 110px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
       }
       .logo{
         width: 46px;
@@ -141,15 +196,33 @@ body {
       p {
         font-size: 60px;
         margin-top: 500px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
          color: #ffffff;
     }
     .text{
       position: fixed;
       font-size: 40px;
       margin-top: 150px;
-      font-family: "oswald", sans-serif;
+      font-family: 'Bebas Neue', cursive;
       color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 100%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
     }
 }
 @media (min-width:1025px) { 
@@ -160,7 +233,7 @@ body {
         color: #fff;
         top: 30%;
         font-size: 130px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
       }
       .logo{
         width: 48px;
@@ -171,15 +244,33 @@ body {
       p {
           font-size: 60px;
           margin-top: 500px;
-          font-family: "oswald", sans-serif;
+          font-family: 'Bebas Neue', cursive;
            color: #ffffff;
       }
       .text{
         position: fixed;
         font-size: 40px;
         margin-top: 150px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
         color: #ffffff;
+      }
+      .circle1{
+        width: 60%;
+        position: fixed;
+        animation: rotation 100s infinite linear;
+        display: block;
+        margin-top: -20%;
+         margin-left: 50%;
+         
+      }
+      .circle2{
+        width: 100%;
+        position: fixed;
+        animation: rotation 100s infinite linear;
+        display: block;
+        margin-top: 20%;
+         margin-left: -50%;
+         
       }
   
 }
@@ -190,18 +281,20 @@ body {
         top: 30%;
         color: #fff;
         font-size: 170px;
-        font-family: "oswald", sans-serif;
+        font-family: 'Bebas Neue', cursive;
       }
     .logo{
       width: 70px;
       margin-top: 5%;
-      margin-left: 10%;
+      margin-left: 8%;
       position: fixed;
     }
     p {
+      position: relative;
       font-size: 60px;
       margin-top: 500px;
-      font-family: "oswald", sans-serif;
+      margin-left: 0%;
+      font-family: 'Bebas Neue', cursive;
       color: #ffffff;
 
     }
@@ -209,8 +302,35 @@ body {
       position: fixed;
       font-size: 40px;
       margin-top: 150px;
-      font-family: "oswald", sans-serif;
+      font-family: 'Bebas Neue', cursive;
       color: #ffffff;
     }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 80%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
+    }
 
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
