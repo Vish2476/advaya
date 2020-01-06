@@ -57,7 +57,7 @@ body {
       p {
         position: fixed;
         font-size: 50px;
-        margin-top: 500px;
+        margin-top: 250px;
         font-family: 'Bebas Neue', cursive;
          color: #ffffff;
     }
@@ -111,7 +111,7 @@ body {
     .text{
       position: fixed;
       font-size: 30px;
-      margin-top: 350px;
+      margin-top: 250px;
       font-family: 'Bebas Neue', cursive;
       color: #ffffff;
     }
@@ -150,7 +150,7 @@ body {
       }
       p {
         font-size: 50px;
-        margin-top: 350px;
+        margin-top: 250px;
         font-family: 'Bebas Neue', cursive;
          color: #ffffff;
     }
