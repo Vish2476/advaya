@@ -55,7 +55,7 @@ body {
         
       }
       p {
-        position: fixed;
+        position: relative;
         font-size: 50px;
         margin-top: 250px;
         font-family: 'Bebas Neue', cursive;
@@ -103,6 +103,7 @@ body {
         margin-left: %;
       }
       p {
+        position: relative;
         font-size: 50px;
         margin-top: 500px;
         font-family: 'Bebas Neue', cursive;
