@@ -36,7 +36,7 @@ function myFunction(item, index) {
                 flag=false;
             }}
     if(flag){
-    //alert('Registered successfully');
+    //alert('Registered successfully! . We will get to you via email soon.');
       
     db.collection('ca').doc(form.email.value).set({
         caname: form.caname.value,
@@ -53,7 +53,7 @@ function myFunction(item, index) {
     form.clgId.value = '';
     form.email.value = '';
     form.phone.value = '';
-        window.location.replace("../routes/careg.html");
+       // window.location.replace("../routes/careg.html");
     }
     else{
         alert("Email id already registered !");
