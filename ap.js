@@ -42,7 +42,7 @@ function myFunction(item, index) {
         caname: form.caname.value,
         college: form.clgName.value,
         collegeid: form.clgId.value,
-        //email: form.email.value,
+        email: form.email.value,
         phone: form.phone.value,
         promo: promo.concat(y.slice(0,3).toUpperCase()),
         mailsent: false,
