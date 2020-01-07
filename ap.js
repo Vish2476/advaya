@@ -46,6 +46,7 @@ function myFunction(item, index) {
         phone: form.phone.value,
         promo: promo.concat(y.slice(0,3).toUpperCase()),
         mailsent: false,
+        count:0,
        // time: d,
     });
     form.caname.value = '';
