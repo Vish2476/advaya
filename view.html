@@ -33,7 +33,7 @@ function renderCafe(doc){
     //let collegeid = document.createElement('span');
     //let count = document.createElement('span');
     let email = document.createElement('span');
-    let mailsent = document.createElement('span');
+    //let mailsent = document.createElement('span');
     //let phone = document.createElement('span');
     let promo = document.createElement('span');
 
@@ -42,10 +42,10 @@ function renderCafe(doc){
     //college.textContent = doc.data().college;
     //collegeid.textContent = doc.data().collegeid;
     //count.textContent = doc.data().count;
-    email.textContent = doc.data().email;
-    mailsent.textContent = doc.data().mailsent;
+    email.textContent = doc.data().email+'  '+doc.data().mailsent+'  '+doc.data().promo;
+    //mailsent.textContent = doc.data().mailsent;
     //phone.textContent = doc.data().phone;
-    promo.textContent = doc.data().promo;
+    //promo.textContent = doc.data().promo;
     //li.appendChild(caname);
     //li.appendChild(college);
     //li.appendChild(collegeid);
