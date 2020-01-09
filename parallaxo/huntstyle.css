@@ -11,12 +11,10 @@ body{
 .text{
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: 'Bebas Neue', cursive;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
-
 .button {
     background-color: rgb(255, 255, 255);
     border: none;
@@ -34,15 +32,7 @@ body{
   }
 
   
-  .circle2{
-    width: 50%;
-    position: fixed;
-    animation: rotation 80s infinite linear;
-    display: block;
-    margin-top: 20%;
-     margin-left: -20%;
-     
-  }
+
   @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -51,3 +41,182 @@ body{
       transform: rotate(359deg);
     }
   }
+            
+            /* Full-width input fields */
+            input[type=text], input[type=password] {
+                width: 90%;
+                padding: 12px 20px;
+                margin: 8px 26px;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+                font-size:16px;
+            }
+            
+           button{
+               padding-top: -100%;
+           }
+            button:hover {
+                opacity: 0.8;
+            }
+            
+            /* Center the image and position the close button */
+            .imgcontainer {
+                text-align: center;
+                margin: 24px 0 12px 0;
+                position: relative;
+            }
+            .avatar {
+                width: 200px;
+                height:200px;
+                border-radius: 50%;
+            }
+            
+            /* The Modal (background) */
+            .modal {
+                display:none;
+                position: fixed;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgba(0,0,0,0.4);
+            }
+            
+            /* Modal Content Box */
+            .modal-content {
+                background-color: #fefefe;
+                margin: 4% auto 15% auto;
+                border: 1px solid #888;
+                width: 40%; 
+                padding-bottom: 30px;
+            }
+            
+            /* The Close Button (x) */
+            .close {
+                position: absolute;
+                right: 25px;
+                top: 0;
+                color: #000;
+                font-size: 35px;
+                font-weight: bold;
+            }
+            .close:hover,.close:focus {
+                color: red;
+                cursor: pointer;
+            }
+            
+            /* Add Zoom Animation */
+            .animate {
+                animation: zoom 0.6s
+            }
+            @keyframes zoom {
+                from {transform: scale(0)} 
+                to {transform: scale(1)}
+            }
+
+
+
+
+
+
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .circle2{
+        width: 120%;
+        position: fixed;
+        animation: rotation 80s infinite linear;
+        display: block;
+        margin-top: 100%;
+        margin-left: -14%;
+         
+      
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .circle2{
+        width: 100%;
+        position: fixed;
+        animation: rotation 80s infinite linear;
+        display: block;
+        margin-top: 100%;
+        margin-left: -2%;
+         
+      
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .circle2{
+        width: 100%;
+        position: fixed;
+        animation: rotation 80s infinite linear;
+        display: block;
+        margin-top: 50%;
+         margin-left: -40%;
+         
+              
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .circle2{
+        width: 100%;
+        position: fixed;
+        animation: rotation 80s infinite linear;
+        display: block;
+        margin-top: 40%;
+         margin-left: -40%;
+         
+      
+    }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .circle2{
+        width: 100%;
+        position: fixed;
+        animation: rotation 80s infinite linear;
+        display: block;
+        margin-top: 30%;
+         margin-left: -40%;
+    }
+    .button2 {
+        position: fixed;
+        background-color: rgba(197, 0, 0, 0.411);
+        border: none;
+        position: relative;
+        color: rgb(212, 212, 212);
+        padding: 7px 27px;
+        font-size: 20px;
+        left: -5.5%;
+        font-family: 'Bebas Neue', cursive;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+         
+      
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    .circle2{
+        width: 50%;
+        position: fixed;
+        animation: rotation 80s infinite linear;
+        display: block;
+        margin-top: 20%;
+         margin-left: -20%;
+      
+}
+.button2 {
+    position: fixed;
+    background-color: rgba(197, 0, 0, 0.411);
+    border: none;
+    position: relative;
+    color: rgb(212, 212, 212);
+    padding: 7px 27px;
+    font-size: 20px;
+    left: -5.5%;
+    font-family: 'Bebas Neue', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  }
+ 

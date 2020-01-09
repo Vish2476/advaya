@@ -9,13 +9,13 @@
     <title>Hunt 1 | Parallaxo</title>
 </head>
 <body>
-    <img class="circle2" src="./circle.png">
+ <!--   <img class="circle2" src="./circle.png">-->
 <CENTER>
     <a href="https://ibb.co/h8NGWF9" ><img src="https://i.ibb.co/h8NGWF9/circle.png" alt="circle" border="0"></a>
 </CENTER>
 <CENTER class="text">
     The above file is a .png file which may (or may not) contain a code in it.</br>
-     Play with the image in any image editor and enter the code by pressing the button below.</br>
+     Play with the image in an image editor and enter the code you cracked by pressing the button below.</br>
      Crack On!
 
 </CENTER>
@@ -28,7 +28,7 @@
         history.go(-1);
         if (pass1.toLowerCase() == "idukki") {
         alert('You got it right!');
-        window.open('protectpage.html');
+        window.open('visit1.html');
         break;
         }
         testV+=1;
@@ -36,7 +36,7 @@
         prompt('Wrong password!! Try again.','Password');
         }
         if (pass1.toLowerCase()!="password" & testV ==3)
-        history.go(-1);
+        history.go(0);
         return " ";
         }
         </SCRIPT>
@@ -44,6 +44,31 @@
         <FORM>
         <input type="button" class="button" value="Enter The Password" onClick="passWord()">
         </FORM>
+        <button class="button2" onclick="document.getElementById('modal-wrapper').style.display='block'" style="width:200px; margin-top:200px; margin-left:160px;">
+            Help</button>
         </CENTER>
+        
+            
+            <div id="modal-wrapper" class="modal">
+              
+              <form class="modal-content animate" action="/action_page.php">
+                 jhguhhj
+              </form>
+              
+            </div>
+            
+            <script>
+            // If user clicks anywhere outside of the modal, Modal will close
+            
+            var modal = document.getElementById('modal-wrapper');
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+
+
+        
 </body>
 </html>
