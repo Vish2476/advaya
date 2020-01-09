@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+		html,body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./bg.jpg");
+
+  background-color: #222;
+}
+
+
+.gsTitle-title {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.gsTitle-color {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  margin: -.05em 0 0 .05em;
+  color: dodgerblue;
+  mix-blend-mode: darken;
+  transition: .1s;
+  transition-property: opacity, margin;
+}
+
+.gsTitle-b {
+  margin: .05em 0 0 -.05em;
+  color: tomato;
+  mix-blend-mode: color-burn;
+}
+
+.gsTitle-glitched .gsTitle-color {
+  opacity: .4;
+}
+
+
+@media (min-width:320px)  { 
+    /* smartphones, iPhone, portrait 480x320 phones */
+    #gsTitle {
+        position: fixed;
+        top: 35%;
+        color: #ffffff;
+        font-size: 60px;
+        font-family: 'Bebas Neue', cursive;
+      }
+      .logo{
+        position: relative;
+        width:60px;
+        margin-top: 0%;
+        margin-left: 110%;
+        
+      }
+      p {
+        position: relative;
+        font-size: 50px;
+        margin-top: 250px;
+        font-family: 'Bebas Neue', cursive;
+         color: #ffffff;
+    }
+    .text{
+      position: fixed;
+      font-size: 30px;
+      margin-top: 250px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 100%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
+    }
+    .button {
+      background-color: rgb(255, 255, 255);
+      border: none;
+      position: relative;
+      color: rgb(0, 0, 0);
+      top: 220px;
+      padding: 10px 27px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Bebas Neue', cursive;
+      border-radius: 10px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+}
+@media (min-width:481px)  { 
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    #gsTitle {
+        position: fixed;
+        color: #fff;
+        font-size: 70px;
+        font-family: 'Bebas Neue', cursive;
+      }
+      .logo{
+        position: fixed;
+        width: 42px;
+        margin-top: 15%;
+        margin-left: %;
+      }
+      p {
+        position: relative;
+        font-size: 50px;
+        margin-top: 500px;
+        font-family: 'Bebas Neue', cursive;
+         color: #ffffff;
+    }
+    .text{
+      position: fixed;
+      font-size: 30px;
+      margin-top: 250px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 120%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
+    }
+    .button {
+      background-color: rgb(255, 255, 255);
+      border: none;
+      position: relative;
+      color: rgb(0, 0, 0);
+      top: 220px;
+      padding: 10px 27px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Bebas Neue', cursive;
+      border-radius: 10px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+}
+@media (min-width:641px)  { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    #gsTitle {
+        position: fixed;
+        color: #fff;
+        font-size: 95px;
+        font-family: 'Bebas Neue', cursive;
+      }
+      .logo{
+        width: 44px;
+        margin-top: 5%;
+        margin-left: 15%;
+        position: fixed;
+      }
+      p {
+        font-size: 50px;
+        margin-top: 250px;
+        font-family: 'Bebas Neue', cursive;
+         color: #ffffff;
+    }
+    .text{
+      position: fixed;
+      font-size: 40px;
+      margin-top: 150px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 100%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
+    }
+    .button {
+      background-color: rgb(255, 255, 255);
+      border: none;
+      position: relative;
+      color: rgb(0, 0, 0);
+      top: 220px;
+      padding: 10px 27px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Bebas Neue', cursive;
+      border-radius: 10px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+    #gsTitle {
+        position: fixed;
+        color: #fff;
+        font-size: 110px;
+        font-family: 'Bebas Neue', cursive;
+      }
+      .logo{
+        width: 46px;
+        margin-top: 5%;
+        margin-left: 10%;
+        position: fixed;
+      }
+      p {
+        font-size: 60px;
+        margin-top: 500px;
+        font-family: 'Bebas Neue', cursive;
+         color: #ffffff;
+    }
+    .text{
+      position: fixed;
+      font-size: 40px;
+      margin-top: 150px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 100%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
+    }
+    .button {
+      background-color: rgb(255, 255, 255);
+      border: none;
+      position: relative;
+      color: rgb(0, 0, 0);
+      top: 220px;
+      padding: 10px 27px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Bebas Neue', cursive;
+      border-radius: 10px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+}
+@media (min-width:1025px) { 
+    
+    /* big landscape tablets, laptops, and desktops */ 
+    #gsTitle {
+        position: fixed;
+        color: #fff;
+        top: 30%;
+        font-size: 130px;
+        font-family: 'Bebas Neue', cursive;
+      }
+      .logo{
+        width: 48px;
+        margin-top: 5%;
+        margin-left: 8%;
+        position: fixed;
+      }
+      p {
+          font-size: 60px;
+          margin-top: 500px;
+          font-family: 'Bebas Neue', cursive;
+           color: #ffffff;
+      }
+      .text{
+        position: fixed;
+        font-size: 40px;
+        margin-top: 150px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ffffff;
+      }
+      .circle1{
+        width: 60%;
+        position: fixed;
+        animation: rotation 100s infinite linear;
+        display: block;
+        margin-top: -20%;
+         margin-left: 50%;
+         
+      }
+      .circle2{
+        width: 100%;
+        position: fixed;
+        animation: rotation 100s infinite linear;
+        display: block;
+        margin-top: 20%;
+         margin-left: -50%;
+         
+      }
+      .button {
+        background-color: rgb(255, 255, 255);
+        border: none;
+        position: relative;
+        color: rgb(0, 0, 0);
+        top: 220px;
+        padding: 10px 27px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        border-radius: 10px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+  
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */
+    #gsTitle {
+        position: fixed;
+        top: 30%;
+        color: #fff;
+        font-size: 170px;
+        font-family: 'Bebas Neue', cursive;
+      }
+    .logo{
+      width: 70px;
+      margin-top: 5%;
+      margin-left: 8%;
+      position: fixed;
+    }
+    p {
+      position: relative;
+      font-size: 60px;
+      margin-top: 500px;
+      margin-left: 0%;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+
+    }
+    .text{
+      position: fixed;
+      font-size: 40px;
+      margin-top: 150px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .circle1{
+      width: 60%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: -20%;
+       margin-left: 50%;
+       
+    }
+    .circle2{
+      width: 80%;
+      position: fixed;
+      animation: rotation 100s infinite linear;
+      display: block;
+      margin-top: 20%;
+       margin-left: -50%;
+       
+    }
+    .button {
+      background-color: rgb(255, 255, 255);
+      border: none;
+      position: relative;
+      color: rgb(0, 0, 0);
+      top: 220px;
+      padding: 10px 27px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: 'Bebas Neue', cursive;
+      border-radius: 10px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
