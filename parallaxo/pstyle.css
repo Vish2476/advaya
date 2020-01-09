@@ -89,12 +89,12 @@ body {
        
     }
     .button {
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(168, 167, 167);
       border: none;
       position: relative;
       color: rgb(0, 0, 0);
       top: 220px;
-      padding: 30px 27px;
+      padding: 8px 25px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -155,10 +155,10 @@ body {
     .button {
       background-color: rgb(255, 255, 255);
       border: none;
-      position: fixed;
+      position: relative;
       color: rgb(0, 0, 0);
       top: 220px;
-      padding: 200px 270px;
+      padding: 10px 27px;
       text-align: center;
       text-decoration: none;
       display: inline-block;

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./huntstyle.css">
+
+    <title>Hunt 1 | Parallaxo</title>
+</head>
+<body>
+    <img class="circle2" src="./circle.png">
+<CENTER>
+    <a href="https://ibb.co/h8NGWF9" ><img src="https://i.ibb.co/h8NGWF9/circle.png" alt="circle" border="0"></a>
+</CENTER>
+<CENTER class="text">
+    The above file is a .png file which may (or may not) contain a code in it.</br>
+     Play with the image in any image editor and enter the code by pressing the button below.</br>
+     Crack On!
+
+</CENTER>
+    <SCRIPT class="but">
+        function passWord() {
+        var testV = 1;
+        var pass1 = prompt('Please Enter Your Password',' ');
+        while (testV < 3) {
+        if (!pass1)
+        history.go(-1);
+        if (pass1.toLowerCase() == "idukki") {
+        alert('You got it right!');
+        window.open('protectpage.html');
+        break;
+        }
+        testV+=1;
+        var pass1 =
+        prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+        }
+        if (pass1.toLowerCase()!="password" & testV ==3)
+        history.go(-1);
+        return " ";
+        }
+        </SCRIPT>
+        <CENTER>
+        <FORM>
+        <input type="button" class="button" value="Enter The Password" onClick="passWord()">
+        </FORM>
+        </CENTER>
+</body>
+</html>
