@@ -31,31 +31,31 @@
             const cafeList = document.querySelector('#cafe-list');
 function renderCafe(doc){
     let li = document.createElement('li');
-    let caname = document.createElement('span');
-    let college = document.createElement('span');
-    let collegeid = document.createElement('span');
-    let count = document.createElement('span');
+    //let caname = document.createElement('span');
+    //let college = document.createElement('span');
+    //let collegeid = document.createElement('span');
+    //let count = document.createElement('span');
     let email = document.createElement('span');
     let mailsent = document.createElement('span');
-    let phone = document.createElement('span');
+    //let phone = document.createElement('span');
     let promo = document.createElement('span');
 
     li.setAttribute('data-id', doc.id);
-    caname.textContent = doc.data().caname;
-    college.textContent = doc.data().college;
-    collegeid.textContent = doc.data().collegeid;
-    count.textContent = doc.data().count;
+    //caname.textContent = doc.data().caname;
+    //college.textContent = doc.data().college;
+    //collegeid.textContent = doc.data().collegeid;
+    //count.textContent = doc.data().count;
     email.textContent = doc.data().email;
     mailsent.textContent = doc.data().mailsent;
-    phone.textContent = doc.data().phone;
+    //phone.textContent = doc.data().phone;
     promo.textContent = doc.data().promo;
-    li.appendChild(caname);
-    li.appendChild(college);
-    li.appendChild(collegeid);
-    li.appendChild(count);
+    //li.appendChild(caname);
+    //li.appendChild(college);
+    //li.appendChild(collegeid);
+    //li.appendChild(count);
     li.appendChild(email);
     li.appendChild(mailsent);
-    li.appendChild(phone);
+    //li.appendChild(phone);
     li.appendChild(promo);
     cafeList.appendChild(li);  
 }
