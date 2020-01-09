@@ -11,5 +11,6 @@ form.addEventListener('submit', (e) => {
     });
     form.name.value = '';
     form.pno.value = '';
-    window.location.replace("hunt1.html");
+    //window.location.replace("hunt1.html");
 });
+//window.location.replace("hunt1.html");
