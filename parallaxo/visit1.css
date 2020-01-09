@@ -4,10 +4,12 @@
 		html,body {
   height: 100%;
 }
-body{
-
+body {
+    
+    background-image: url("./bg.jpg");
+  
     background-color: #222;
-}
+  }
 
 h3{
     margin-top: -5%;

@@ -3,12 +3,24 @@
 		html,body {
   height: 100%;
 }
-body{
-
+body {
+    
+    background-image: url("./bg.jpg");
+  
     background-color: #222;
-}
+  }
+  
 
 .text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.text2{
+    padding-left: 3%;
+    padding-top: 3%;
     margin-top: 20px;
     margin-bottom: 20px;
     color: white;
@@ -29,9 +41,19 @@ body{
     border-radius: 10px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
+.t1{
+    font-family: 'Poppins', sans-serif;
 
-  
+}
+.number{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.contact{
+    margin-left: 4%;
+}
 
   @keyframes rotation {
     from {
@@ -82,16 +104,17 @@ body{
                 width: 100%;
                 height: 100%;
                 overflow: auto;
-                background-color: rgba(0,0,0,0.4);
+                background-color: rgba(0, 0, 0, 0.897);
             }
             
             /* Modal Content Box */
             .modal-content {
-                background-color: #fefefe;
+                background-color: #000000ad;
                 margin: 4% auto 15% auto;
-                border: 1px solid #888;
                 width: 40%; 
                 padding-bottom: 30px;
+                color: white;
+
             }
             
             /* The Close Button (x) */
@@ -126,26 +149,64 @@ body{
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     .circle2{
-        width: 120%;
+        width: 90%;
         position: fixed;
         animation: rotation 80s infinite linear;
         display: block;
-        margin-top: 100%;
-        margin-left: -14%;
-         
-      
-}
+        margin-top: 90%;
+        margin-left: -40%;
+        }
+        .modal-content {
+            background-color: #000000ad;
+            margin: 4% auto 15% auto;
+            width: 80%; 
+            padding-bottom: 30px;
+            color: white;
+
+        }
+        .button2 {
+            position: fixed;
+            background-color: rgba(197, 0, 0, 0.411);
+            border: none;
+            position: relative;
+            color: rgb(212, 212, 212);
+            padding: 7px 27px;
+            font-size: 20px;
+            left: -2.5%;
+            font-family: 'Bebas Neue', cursive;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
     .circle2{
-        width: 100%;
+        width: 90%;
         position: fixed;
         animation: rotation 80s infinite linear;
         display: block;
-        margin-top: 100%;
-        margin-left: -2%;
-         
-      
-}
+        margin-top: 90%;
+        margin-left: -40%;
+        }
+        .modal-content {
+            background-color: #000000ad;
+            margin: 4% auto 15% auto;
+            width: 80%; 
+            padding-bottom: 30px;
+            color: white;
+
+        }
+        .button2 {
+            position: fixed;
+            background-color: rgba(197, 0, 0, 0.411);
+            border: none;
+            position: relative;
+            color: rgb(212, 212, 212);
+            padding: 7px 27px;
+            font-size: 20px;
+            left: -14%;
+            font-family: 'Bebas Neue', cursive;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
     .circle2{
         width: 100%;
@@ -155,8 +216,35 @@ body{
         margin-top: 50%;
          margin-left: -40%;
          
+         
               
 }
+.button2 {
+    position: fixed;
+    background-color: rgba(197, 0, 0, 0.411);
+    border: none;
+    position: relative;
+    color: rgb(212, 212, 212);
+    padding: 7px 27px;
+    font-size: 20px;
+    left: -14%;
+    font-family: 'Bebas Neue', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.button2 {
+    position: fixed;
+    background-color: rgba(197, 0, 0, 0.411);
+    border: none;
+    position: relative;
+    color: rgb(212, 212, 212);
+    padding: 7px 27px;
+    font-size: 20px;
+    left: -5.5%;
+    font-family: 'Bebas Neue', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     .circle2{
         width: 100%;
@@ -170,12 +258,12 @@ body{
     }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
     .circle2{
-        width: 100%;
+        width: 50%;
         position: fixed;
         animation: rotation 80s infinite linear;
         display: block;
         margin-top: 30%;
-         margin-left: -40%;
+         margin-left: -10%;
     }
     .button2 {
         position: fixed;
