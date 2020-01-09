@@ -16,9 +16,9 @@
     <CENTER>
     <form id="para"> 
         
-        <input type="text" name="name" placeholder="Name" id="pname"><br>
+        <input type="text" name="name" placeholder="Name" id="pname" required><br>
 
-        <input type="text" name="phonenumber" placeholder="Phone No." id="pno">
+        <input type="text" name="phonenumber" placeholder="Phone No." id="pno" minlength="10" maxlength="10" required>
         <input type="submit" id="regBtn" class="btnreg" value="Register">
       </form>
     </CENTER>
@@ -38,7 +38,8 @@
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
-        const db = firebase.firestore();      
+        const db = firebase.firestore();  
+        var count=0;
       </script>
     <script src="p.js"></script>
 </body>
