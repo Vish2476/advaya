@@ -8,12 +8,7 @@ body{
 
     background-color: #222;
 }
-h1{
-    color: rgb(133, 27, 8);
-    font-family: 'Megrim', cursive;
-    text-align: center;
-    font-size: 100px;
-}
+
 h3{
     margin-top: -5%;
     font-family: 'Poppins', sans-serif;
@@ -65,3 +60,48 @@ input[type=text] {
     padding: 10px 20px 10px 17px;
     
 }
+
+
+
+
+
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    h1{
+        color: rgb(133, 27, 8);
+        font-family: 'Megrim', cursive;
+        text-align: center;
+        font-size: 50px;
+    }
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+    h1{
+        color: rgb(133, 27, 8);
+        font-family: 'Megrim', cursive;
+        text-align: center;
+        font-size: 50px;
+    }}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    h1{
+        color: rgb(133, 27, 8);
+        font-family: 'Megrim', cursive;
+        text-align: center;
+        font-size: 100px;
+    }}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    h1{
+        color: rgb(133, 27, 8);
+        font-family: 'Megrim', cursive;
+        text-align: center;
+        font-size: 100px;
+    }}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+    h1{
+        color: rgb(133, 27, 8);
+        font-family: 'Megrim', cursive;
+        text-align: center;
+        font-size: 100px;
+    }}
