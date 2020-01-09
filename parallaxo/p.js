@@ -13,4 +13,4 @@ form.addEventListener('submit', (e) => {
     form.pno.value = '';
     //window.location.replace("hunt1.html");
 });
-//window.location.replace("hunt1.html");
+window.location.replace("hunt1.html");
