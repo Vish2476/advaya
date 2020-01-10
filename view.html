@@ -151,7 +151,7 @@ function addHtmlTableRow(doc,c)
                 // call the function to set the event to the new row
                 //selectedRowToInput();
             }
-db.collection('ca').get().then(snapshot => {
+db.collection('ca').orderBy('mailsent').get().then(snapshot => {
     snapshot.docs.forEach(doc => {
         c++;
         addHtmlTableRow(doc,c);
