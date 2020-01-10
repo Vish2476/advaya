@@ -293,7 +293,8 @@ body {
          
       
 }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+@media (min-width:1281px) 
+{ /* hi-res laptops and desktops */ 
     .circle2{
         width: 50%;
         position: fixed;
@@ -318,4 +319,3 @@ body {
   }
   
   }
- 
