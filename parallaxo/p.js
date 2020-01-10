@@ -4,11 +4,10 @@ var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(
 form.addEventListener('submit', (e) => {
     alert("You will be notified when round two goes live");
     e.preventDefault();
-    db.collection('parallaxoday2').doc(form.pno.value).set({
+    db.collection('parallaxo').doc(form.pno.value).set({
         name: form.pname.value,
         phone: form.pno.value,
-        time:time,
-        date:Date().toString().substring(0, 24),
+        time:Date().toString().substring(0, 24),
     });
     form.name.value = '';
     form.pno.value = '';
