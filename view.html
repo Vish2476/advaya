@@ -2,12 +2,107 @@
     <head>
         <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+        <style>
+            table { 
+width: 750px; 
+border-collapse: collapse; 
+margin:50px auto;
+}
 
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+background: #eee; 
+}
+
+th { 
+background: #3498db; 
+color: white; 
+font-weight: bold; 
+}
+
+td, th { 
+padding: 10px; 
+border: 1px solid #ccc; 
+text-align: left; 
+font-size: 18px;
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+table { 
+width: 100%; 
+}
+
+/* Force table to not be like tables anymore */
+table, thead, tbody, th, td, tr { 
+display: block; 
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr { 
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+
+tr { border: 1px solid #ccc; }
+
+td { 
+/* Behave  like a "row" */
+border: none;
+border-bottom: 1px solid #eee; 
+position: relative;
+padding-left: 50%; 
+}
+
+td:before { 
+/* Now like a table header */
+position: absolute;
+/* Top/left values mimic padding */
+top: 6px;
+left: 6px;
+width: 45%; 
+padding-right: 10px; 
+white-space: nowrap;
+/* Label the data */
+content: attr(data-column);
+
+color: #000;
+font-weight: bold;
+}
+
+}
+        </style>
     </head>
     <body>
         <div>
+            <form>
+            <input type="submit" id="regBtn" class="btnreg" value="Register">
+        </form>
             <h1>CA LIST</h1>
-        <table id="cafe-list"></table>
+            <div class="container">
+                <div class="tab tab-1">
+                    <table id="table" border="1">
+                        <tr>
+                            <th>NAME</th>
+                            <th>COLLEGE</th>
+                            <th>ID</th>
+                            <th>JOINED</th>
+                            <th>EMAIL</th>
+                            <th>MAILSENT</th>
+                            <th>PHONE</th>
+                            <th>PROMO</th>
+                            <th>COUNT</th>
+                        </tr>
+</div>
+
         </div>
         <script>
             // Your web app's Firebase configuration
@@ -26,39 +121,36 @@
             firebase.initializeApp(firebaseConfig);
             const db = firebase.firestore();
             const cafeList = document.querySelector('#cafe-list');
-function renderCafe(doc){
-    let li = document.createElement('li');
-    //let caname = document.createElement('span');
-    //let college = document.createElement('span');
-    //let collegeid = document.createElement('span');
-    //let count = document.createElement('span');
-    let email = document.createElement('span');
-    //let mailsent = document.createElement('span');
-    //let phone = document.createElement('span');
-    let promo = document.createElement('span');
-
-    li.setAttribute('data-id', doc.id);
-    //caname.textContent = doc.data().caname;
-    //college.textContent = doc.data().college;
-    //collegeid.textContent = doc.data().collegeid;
-    //count.textContent = doc.data().count;
-    email.textContent = doc.data().email;
-    mailsent.textContent = doc.data().mailsent;
-    //phone.textContent = doc.data().phone;
-    promo.textContent = doc.data().promo;
-    //li.appendChild(caname);
-    //li.appendChild(college);
-    //li.appendChild(collegeid);
-    //li.appendChild(count);
-    li.appendChild(email);
-    li.appendChild(mailsent);
-    //li.appendChild(phone);
-    li.appendChild(promo);
-    cafeList.appendChild(li);  
-}
+var c=0;
+function addHtmlTableRow(doc,c)
+            {
+                // get the table by id
+                // create a new row and cells
+                // get value from input text
+                // set the values into row cell's
+                var newRow = table.insertRow(table.length),
+                    cell1 = newRow.insertCell(0),
+                    cell2 = newRow.insertCell(1),
+                    cell3 = newRow.insertCell(2),
+                    cell4 = newRow.insertCell(3);
+                    cell5 = newRow.insertCell(4),
+                    cell6 = newRow.insertCell(5);
+            
+                cell1.innerHTML = doc.data().caname;
+                cell2.innerHTML = doc.data().college;
+                cell3.innerHTML = doc.data().collegeid;
+                cell4.innerHTML = doc.data().count;
+                cell5.innerHTML = doc.data().email;
+                cell6.innerHTML = doc.data().mailsent;
+                cell7.innerHTML = doc.data().phone;
+                cell8.innerHTML = doc.data().promo;
+                cell9.innerHTML = c;
+                // call the function to set the event to the new row
+                //selectedRowToInput();
+            }
 db.collection('ca').get().then(snapshot => {
     snapshot.docs.forEach(doc => {
-        renderCafe(doc);
+        addHtmlTableRow(doc,c);
      });
 });
           </script>
