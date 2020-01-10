@@ -135,6 +135,9 @@ function addHtmlTableRow(doc,c)
                     cell4 = newRow.insertCell(3);
                     cell5 = newRow.insertCell(4),
                     cell6 = newRow.insertCell(5);
+                    cell7 = newRow.insertCell(6);
+                    cell8 = newRow.insertCell(7);
+                    cell9 = newRow.insertCell(8);
             
                 cell1.innerHTML = doc.data().caname;
                 cell2.innerHTML = doc.data().college;
@@ -150,6 +153,7 @@ function addHtmlTableRow(doc,c)
             }
 db.collection('ca').get().then(snapshot => {
     snapshot.docs.forEach(doc => {
+        c++;
         addHtmlTableRow(doc,c);
      });
 });
