@@ -91,7 +91,7 @@ body {
   }
   .box{
     margin-left: 30%;
-    border: black;
+    border: rgb(255, 255, 255);
     position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
