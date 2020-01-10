@@ -8,6 +8,7 @@ form.addEventListener('submit', (e) => {
         name: form.pname.value,
         phone: form.pno.value,
         time:time,
+        date:Date().toString().substring(0, 24),
     });
     form.name.value = '';
     form.pno.value = '';
