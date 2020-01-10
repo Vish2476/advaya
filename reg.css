@@ -98,10 +98,9 @@ body{
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
     .mainrectangle{
         position: relative;
-        margin-left: 40%;
-        margin-top: -30%;
-        height: 450px;
-        width: 50%;
+        margin-top: 10%;
+        height: 400px;
+        width: 100%;
         border-radius: 25px;
          background-color: rgb(255, 255, 255);
     }    
@@ -116,6 +115,7 @@ body{
         border-radius: 5px;
         margin-top: 7px;
         font-family: 'Poppins','sans-serif';
+        font-size: 10px;
 
     }
     .subrectangle1{
@@ -129,6 +129,8 @@ body{
         border-radius: 5px;
         margin-top: 12%;
         font-family: 'Poppins','sans-serif';
+        font-size: 10px;
+
 
     }
     .register{
@@ -148,32 +150,35 @@ body{
 
     .rightbar{
         position: relative;
-        left: 10%;
-        margin-top: 10%;
+        left: 40%;
+        margin-top: 5%;
     }
 
 
     .logo{
         position: relative;
         width:17%;
+        left: 0%;
+    
     }
     .evolve{
         position: relative;
         color: white;
         font-family: 'Poppins','sans-serif';
-        font-size: 35px;
-        left: 2%;
+        font-size: 15px;
+        left: 1%;
     }
     .college{
         position: relative;
         font-family: 'Poppins','sans-serif';
-        left: -3%;
+        left: -15%;
+        font-size: 14px;
         color: rgba(255, 255, 255, 0.13);
     }
     .idukki{
         position: relative;
         font-family: 'Poppins','sans-serif';
-        left: 6.5%;
+        left: 4%;
         color: rgba(255, 255, 255, 0.13);
         font-size: 15px;
     }
@@ -365,6 +370,8 @@ body{
         border-radius: 5px;
         margin-top: 7px;
         font-family: 'Poppins','sans-serif';
+        font-size: 10px;
+
 
     }
     .subrectangle1{
@@ -461,6 +468,8 @@ body{
             border-radius: 5px;
             margin-top: 12%;
             font-family: 'Poppins','sans-serif';
+            font-size: 15px;
+
 
         }
         .register{
@@ -475,6 +484,8 @@ body{
             color: white;
             font-family: 'Bebas Neue', cursive;
             font-size: 18px;
+            cursor: pointer;
+
 
         }
 
