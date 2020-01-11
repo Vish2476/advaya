@@ -741,6 +741,10 @@ nav {
   display: flex;
 }
 @media screen and (max-width: 480px) {
+  .copy h4 {
+    font-size: .6rem;
+    
+  }
   .events {
     left: 50%;
     margin-left: 0%;
@@ -774,6 +778,10 @@ nav {
 }
 
 @media screen and (max-width: 342px) {
+  .copy h4 {
+    font-size: .5rem;
+    
+  }
   #kuduka h2 {
 
     font-size: 1.5rem;
