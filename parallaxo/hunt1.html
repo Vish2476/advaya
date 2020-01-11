@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="./huntstyle.css">
 
     <title>Hunt 1 | Parallaxo</title>
+    
+        
 </head>
 <body>
     <script>
@@ -16,7 +18,21 @@ m=""; for (i=0; i<s.length; i++) m+=String.fromCharCode(s.charCodeAt(i)-1); docu
 <noscript>
 You must enable JavaScript to see this text.
 </noscript>
-
+<script type="text/javascript">
+var message = "ath pattilla mwoonuse";
+        
+        function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+        
+        if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+        
+        document.onmousedown = rtclickcheck;
+    function mousehandler(e) {
+        var myevent = (isNS) ? e : event;
+        var eventbutton = (isNS) ? myevent.which : myevent.button;
+        if ((eventbutton == 2) || (eventbutton == 3)) return false;
+    }
+    
+</script>
 
                 
         
