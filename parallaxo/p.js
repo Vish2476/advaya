@@ -2,7 +2,6 @@
 const form = document.querySelector('#para');
 var today = new Date();
 var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var ipa= getIPAddress();
 
 form.addEventListener('submit', (e) => {
     alert("You will be notified when round two goes live");
