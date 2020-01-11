@@ -1,6 +1,4 @@
-const form = document.querySelector('#para');
-var today = new Date();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
 
 /* Add "https://api.ipify.org?format=json" statement 
 		this will communicate with the ipify servers in 
@@ -14,6 +12,10 @@ var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(
 			// Setting text of element P with id gfg 
 			$("#gfg").html(data.ip); 
 		})
+        const form = document.querySelector('#para');
+        var today = new Date();
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        var address = gfg;
 
 form.addEventListener('submit', (e) => {
     alert("You will be notified when round two goes live");
@@ -22,7 +24,7 @@ form.addEventListener('submit', (e) => {
         name: form.pname.value,
         phone: form.pno.value,
         time:Date().toString().substring(0, 24),
-        ip:gfg,
+        ip:address,
     });
     form.name.value = '';
     form.pno.value = '';
