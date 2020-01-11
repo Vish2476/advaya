@@ -3,7 +3,9 @@
 
 function getIPAddress{
     $.getJSON("https://jsonip.com?callback=?", function(data) {
-        return data.ip;
+        var a=data.ip;
+        alert(a);
+        return a;
     });
   };
 
