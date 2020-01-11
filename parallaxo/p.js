@@ -1,4 +1,14 @@
 
+
+
+var getIPAddress = function() {
+    $.getJSON("https://jsonip.com?callback=?", function(data) {
+        var ip=data.ip;
+        alert("Your IP address is :- " + ip);
+    });
+  };
+
+
         const form = document.querySelector('#para');
         var today = new Date();
         var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
@@ -11,7 +21,6 @@ form.addEventListener('submit', (e) => {
         name: form.pname.value,
         phone: form.pno.value,
         time:Date().toString().substring(0, 24),
-        ip:address,
     });
     form.name.value = '';
     form.pno.value = '';
