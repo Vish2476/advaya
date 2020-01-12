@@ -23,7 +23,7 @@ const transporter = nodemailer.createTransport({
     pass: mailer.getPass()
   }
 });
-app.post("/register", (req, res) => {
+app.post("/formreg", (req, res) => {
   req.body.fee = 2500;
   req.body.id = 100;
   db.collection("registered_user")
