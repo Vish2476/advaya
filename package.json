@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "keywords": ["advaya","eventregistration"],
-  "script":{"start": "node server.js","build":""},
+  "script":{"start": "node server.js"},
   "author": "Team advaya",
   "license": "MIT",
   "dependencies": {
