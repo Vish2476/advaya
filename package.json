@@ -5,7 +5,8 @@
   "main": "server.js",
   "keywords": [
     "advaya",
-    "eventregistration"
+    "eventregistration",
+    "netlify"
   ],
   "repository": {
     "type": "git",
