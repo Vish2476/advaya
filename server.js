@@ -65,6 +65,4 @@ sendEmail = email => {
     }
   });
 };
-app.listen(1100, () => {
-  console.log("server start 1100");
-});
+app.listen(www.advaya.live);
