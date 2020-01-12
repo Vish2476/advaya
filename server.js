@@ -65,4 +65,4 @@ sendEmail = email => {
     }
   });
 };
-app.run(www.advaya.live);
+app.listen(1000);
