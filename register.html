@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Event Registration | Advaya 2020</title>
+    <link rel="stylesheet" href="./register.css" />
+</head>
+
+<body>
+    <div class="rightbar">
+        <a href="https://www.advaya.live"><img class="logo" src="./logo2.svg" /></a>
+        <div class="evolve">
+            <p>let's evolve</p>
+        </div>
+        <div class="college">Government Engineering College</div>
+        <div class="idukki">Idukki</div>
+    </div>
+
+    <div class="mainrectangle">
+        <form action="/register" method="POST" name="regform" >
+            <center>
+                <div class="event-name">FOXTROT</div>
+                <input type="hidden" name="fee" value="" />
+                <input type="hidden" name="id" value="" />
+                <input type="text" class="subrectangle" name="name" placeholder="Full Name" required />
+                <input type="text" class="subrectangle" name="college" placeholder="College Name" required />
+                <input type="text" class="subrectangle" name="Branch" placeholder="Branch" required />
+                <input type="text" class="subrectangle" name="semester" placeholder="Semester" required />
+                <input type="text" class="subrectangle" name="ph_no" placeholder="Mobile Number" minlength="10"
+                    maxlength="10" id="ph" required />
+                <input type="text" id="cph" class="subrectangle" name="cph_no" placeholder="Confirm Mobile Number" required />
+                <input type="email" id="mail" class="subrectangle" name="email" placeholder="Email" required />
+                <input type="email" id="cmail" class="subrectangle" name="cemail" placeholder="Confirm Email" required />
+                <input type="text" class="subrectangle" name="regno" placeholder="University Register Number"
+                    required />
+                <input type="text" class="subrectangle" placeholder="Referal Code (Optional)" name="referal" />
+                <div class="subrectectangle" id="astrick">* The referal code is the code given by the campus ambassador
+                    code.</div>
+                <div class="contact">For more info! Contact <a href="tel:+911234567890">+911234567890</a>.</div>
+                <button class="register">REGISTER</button>
+            </center>
+        </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+
+</html>
