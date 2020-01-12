@@ -868,6 +868,12 @@ nav {
         width: 90%;
         padding: 1rem;
     }
+    .title h2 {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: 'Bebas Neue', cursive;
+    }
 }
 
 
