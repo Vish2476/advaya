@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./huntstyle.css">
+
+    <title>Hunt 1 | Parallaxo</title>
+</head>
+<body>
+    <img class = "circle2" src = "./circle.png" >
+            <CENTER >
+                <a href="https://ibb.co/NYdr6qk"><img src="https://i.ibb.co/NYdr6qk/ohboy.png" alt="ohboy" border="0"></a> 
+            </CENTER> 
+            <CENTER class = "text" >
+            here is your way to round 3</br></br>
+            please read the RULES before preceding!. </br>
+
+            </CENTER> 
+            
+            <CENTER >
+                <FORM >
+                <input type = "button" class = "button" value = "ENTER TO ROUND THREE" onClick = "passWord()" >
+                </FORM>
+            </CENTER>
+
+
+            
+            <CENTER >
+            <button class = "button2"
+            onclick = "document.getElementById('modal-wrapper').style.display='block'"
+            style = "width:200px; margin-top:200px; margin-left:160px;" >
+            RULES </button> 
+            </CENTER>
+
+
+            <div id = "modal-wrapper" class = "modal" >
+
+            <form class = "modal-content animate" action = "/action_page.php" >
+            <div class = "text2" >
+            <ol >
+            <li>Only the people who've completed first round can do this round. If you didn't complete the first round, even if you crack the code, you wont be counted :)</br></li>
+            <li>Prizes worth INR 5000 is waiting for you!!!!! So you can be a bit selfish in this. Don't share the code with others!</br></li> 
+            <li>You cant register from a device twice.You will be disqualified this time</br></li>
+            <li>If you still want to cheat, rethink about your life decisions :)</br></br></li>       
+        </ol>  
+
+                <li>By the way, there will be a total of 4 rounds. 4th round will take place at the college</br></br></li>
+                <li > Still have doubts ? <div class = "contact" > Contact : <a href = "tel:+918281058094" class = "number" > +91 82810 58094 </a></div > </li>
+                
+                </div> </form>
+
+                </div>
+
+                <script >
+                // If user clicks anywhere outside of the modal, Modal will close
+
+                var modal = document.getElementById('modal-wrapper'); window.onclick = function (event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                } </script>
+
+                
+        
+</body>
+</html>
