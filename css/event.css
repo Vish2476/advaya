@@ -101,6 +101,8 @@ section {
 
 }
 
+
+
 /* ........................card.....                     */
 .subject {
     width: 100%;
@@ -270,8 +272,9 @@ section {
 .social{
 }
 
+
 .social li:hover svg path {
-    fill: #f00;
+    fill: #ff0000;
     opacity: 1;
 }
 
