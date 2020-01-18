@@ -98,6 +98,7 @@ section {
     margin-right: 1%;
 
 }
+
 /* 
 .social li a:nth-child(1){
     
@@ -275,6 +276,11 @@ section {
     text-align: center;
     position: absolute;
 }
+
+.social li svg path {
+    fill-opacity: .5;
+}
+
 .social li:hover svg path {
     fill: #ff0000;
     opacity: 1;
