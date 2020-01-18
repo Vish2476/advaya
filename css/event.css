@@ -98,10 +98,17 @@ section {
     margin-right: 1%;
 
 }
-
-/* .social a:nth-child(1){
+/* 
+.social li a:nth-child(1){
+    
+}
+.social li a:nth-child(2){
+    
+}
+.social li a:nth-child(3){
     
 } */
+
 
 /* ........................card.....                     */
 .subject {
