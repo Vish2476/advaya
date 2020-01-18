@@ -42,7 +42,7 @@ social_icon.item(1).setAttribute('href', 'https://www.facebook.com/advayaofficia
 social_icon.item(2).setAttribute('href', 'https://www.instagram.com/advayaofficial/?igshid=16qv7yss1xuyo');
 social_Style.forEach((child) => {
     child.setAttribute('fill', '#1D2326')
-    child.setAttribute('fill-opacity', '0.8')
+    child.setAttribute('fill-opacity', '1')
 
 })
 copyright.textContent="2020 © Advaya All Rights Reserved"
