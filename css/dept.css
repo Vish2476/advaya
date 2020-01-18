@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
 
-body2{
+body2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,8 @@ body2{
 
 
 }
-.container{
+
+.container {
     margin-top: -25%;
     position: relative;
     display: flex;
@@ -19,110 +20,122 @@ body2{
     flex-wrap: wrap;
     width: 1100px;
 }
-.container .card{
+
+.container .card {
     width: 320px;
     margin: 20px;
     padding: 40px 30px;
     background: #ffffff;
     border-radius: 40px;
-    box-shadow: -6px -6px 20px rgba(255,255,255,1),
-                6px 6px 20px rgba(0,0,0,0.1);
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+        6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-.continer .card:hover{
-    box-shadow: inset -6px -6px 10px rgba(255,255,255,0.5),
-                inset 6px 6px 20px rgba(0,0,0,0.5);
+
+.continer .card:hover {
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.5),
+        inset 6px 6px 20px rgba(0, 0, 0, 0.5);
 }
-.container .card .imgBx{
-    position:relative;
+
+.container .card .imgBx {
+    position: relative;
     text-align: center;
 }
-.container .card .imgBx img{
+
+.container .card .imgBx img {
     max-width: 120px;
 }
-.container .card .contentBx
-{
+
+.container .card .contentBx {
     position: relative;
     margin-top: 20px;
     text-align: center;
 }
-.container .card .contentBx h2{
+
+.container .card .contentBx h2 {
     color: #000000;
     font-weight: 700;
-    font-size :1rem;
+    font-size: 1rem;
     letter-spacing: 2px;
 
 }
-.container .card .contentBx p{
-    color:#880000
+
+.container .card .contentBx p {
+    color: #880000
 }
-.container .card .contentBx a{
+
+.container .card .contentBx a {
     display: inline-block;
     padding: 10px 20px;
-    margin-top:15px;
+    margin-top: 15px;
+    border: 2px solid #a80404;
     border-radius: 40px;
     color: #880000;
     font-size: 16px;
     text-decoration: none;
-    box-shadow: -4px -4px 20px rgba(255,255,255,1),
-                4px 4px 20px rgba(0,0,0,0.1);
+    box-shadow: -4px -4px 20px rgba(255, 255, 255, 1),
+        4px 4px 20px rgba(0, 0, 0, 0.1);
 }
-.container .card .contentBx a:hover{
-    box-shadow: inset -4px -4px 20px rgba(255,255,255,.5),
-                inset 4px 4px 20px rgba(0,0,0,0.1);
+
+.container .card .contentBx a:hover {
+    box-shadow: inset -4px -4px 20px rgba(255, 255, 255, .5),
+        inset 4px 4px 20px rgba(0, 0, 0, 0.1);
 }
-.container .card a:hover span{
+
+.container .card a:hover span {
     display: block;
     transform: scale(0.98);
 }
+
 .container .card:hover .imgBx,
-.container .card:hover .contentBx{
+.container .card:hover .contentBx {
     transform: scale(0.98);
 }
 
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */.footer2 {
-    margin-top: 18rem;
-    width: 100%;
-    height: 30vh;
-    background-color: #a80404;
-    position: relative;
-    color: #ffffff;
-} }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */.footer2 {
-    margin-top: 18rem;
-    
-    width: 100%;
-    height: 30vh;
-    background-color: #a80404;
-    position: relative;
-    color: #ffffff;
-} }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */.footer2 {
-    margin-top: 18rem;
+@media (min-width:320px) {
 
-    width: 100%;
-    height: 30vh;
-    background-color: #a80404;
-    position: relative;
-    color: #ffffff;
-} }
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */.footer2 {
-    margin-top: 2%;
-    width: 100%;
-    height: 30vh;
-    background-color: #a80404;
-    position: relative;
-    color: #ffffff;
-} }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ .footer {
-    margin-top: 2%;
-    width: 100%;
-    height: 30vh;
-    background-color: #a80404;
-    position: relative;
-    color: #ffffff;
-}}
-@media (min-width:1281px) { /* hi-res laptops and desktops */
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .footer2 {
+        margin-top: 18rem;
+        width: 100%;
+        height: 30vh;
+        background-color: #a80404;
+        position: relative;
+        color: #ffffff;
+    }
+}
+
+@media (min-width:481px) {
+
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .footer2 {
+        margin-top: 18rem;
+
+        width: 100%;
+        height: 30vh;
+        background-color: #a80404;
+        position: relative;
+        color: #ffffff;
+    }
+}
+
+@media (min-width:641px) {
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .footer2 {
+        margin-top: 18rem;
+
+        width: 100%;
+        height: 30vh;
+        background-color: #a80404;
+        position: relative;
+        color: #ffffff;
+    }
+}
+
+@media (min-width:961px) {
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
     .footer2 {
         margin-top: 2%;
         width: 100%;
@@ -130,4 +143,31 @@ body2{
         background-color: #a80404;
         position: relative;
         color: #ffffff;
-    } }
+    }
+}
+
+@media (min-width:1025px) {
+
+    /* big landscape tablets, laptops, and desktops */
+    .footer {
+        margin-top: 2%;
+        width: 100%;
+        height: 30vh;
+        background-color: #a80404;
+        position: relative;
+        color: #ffffff;
+    }
+}
+
+@media (min-width:1281px) {
+
+    /* hi-res laptops and desktops */
+    .footer2 {
+        margin-top: 2%;
+        width: 100%;
+        height: 30vh;
+        background-color: #a80404;
+        position: relative;
+        color: #ffffff;
+    }
+}
