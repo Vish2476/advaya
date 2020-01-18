@@ -99,16 +99,6 @@ section {
 
 }
 
-/* 
-.social li a:nth-child(1){
-    
-}
-.social li a:nth-child(2){
-    
-}
-.social li a:nth-child(3){
-    
-} */
 
 
 /* ........................card.....                     */
@@ -277,9 +267,6 @@ section {
     position: absolute;
 }
 
-.social li svg path {
-    fill-opacity: .5;
-}
 
 .social li:hover svg path {
     fill: #ff0000;

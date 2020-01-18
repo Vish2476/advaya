@@ -3,6 +3,10 @@ const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");
 const close = document.querySelector('.close');
 const logo = document.querySelector('.logo-container img')
+const social_icon = document.querySelectorAll('.social li a');
+const social_Style = document.querySelectorAll('.social path');
+const copyright=document.querySelector('.copy h4')
+
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("open");
     hamburger.style.display = "none";
@@ -33,3 +37,12 @@ logo.addEventListener("click", () => {
         });
     }
 });
+social_icon.item(0).setAttribute('href', 'https://www.youtube.com/channel/UCCrtm7dNcQp1dsULnYZFj5g');
+social_icon.item(1).setAttribute('href', 'https://www.facebook.com/advayaofficial/')
+social_icon.item(2).setAttribute('href', 'https://www.instagram.com/advayaofficial/?igshid=16qv7yss1xuyo');
+social_Style.forEach((child) => {
+    child.setAttribute('fill', '#1D2326')
+    child.setAttribute('fill-opacity', '0.8')
+
+})
+console.log(copyright.textContent="2020 © Advaya All Rights Reserved")
