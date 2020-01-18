@@ -10,10 +10,12 @@
     scroll-behavior: smooth;
     user-select: none;
 }
+
 .sponsor {
     width: 850px;
     margin-left: 18%;
 }
+
 .dept-header {
     background: #111519;
     position: relative;
@@ -55,6 +57,7 @@
 }
 
 .title h2 {
+    text-align: center;
     color: #ffffff;
     font-size: 3rem;
     font-weight: 500;
@@ -295,7 +298,8 @@ section {
     .worth h4 {
         font-size: .6rem;
     }
-    .readmore{
+
+    .readmore {
         cursor: pointer;
         margin-left: -6rem;
         margin-top: 1rem;
@@ -310,73 +314,78 @@ section {
         color: black;
         font-family: 'Poppins', sans-serif;
     }
-.reg {
-    cursor: pointer;
-    margin-left: -6rem;
-    background: #ffffff;
-    width: 5rem;
-    height: 2rem;
-    display: inline-block;
-    font-size: .7rem;
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid #a80404;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-}
-.event-grid img {
-    height: 55%;
-    width: 6em;
-    margin-top: 3%;
-}
-.subject {
-    width: 100%;
-    height: fit-content;
-}
 
-.subject h2 {
+    .reg {
+        cursor: pointer;
+        margin-left: -6rem;
+        background: #ffffff;
+        width: 5rem;
+        height: 2rem;
+        display: inline-block;
+        font-size: .7rem;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid #a80404;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+    }
 
-    font-size: 2rem;
-    font-weight: 500;
-    margin-top: .2rem;
+    .event-grid img {
+        height: 55%;
+        width: 6em;
+        margin-top: 3%;
+    }
 
-}
+    .subject {
+        width: 100%;
+        height: fit-content;
+    }
 
-.subject p {
-    padding: 0 .15rem;
-    font-family: 'Poppins', sans-serif;
-    font-size: .7rem;
-    text-align: left;
+    .subject h2 {
 
-}
-.event-container {
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(50%, 1fr));
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-}
+        font-size: 2rem;
+        font-weight: 500;
+        margin-top: .2rem;
 
-.prize {
-    padding: 0rem 2rem;
-    margin-top: 1rem;
-    text-align: center;
-    border-radius: .5rem;
-    flex-direction: column;
-    background: #1d232647;
-}
+    }
 
-.flex {
-    width: 70%;
-    height: 19rem;
-}
-.worth {
-    justify-content: right;
-    padding: 0 .8rem;
-    height: 2rem;
-    align-items: center;
-}
+    .subject p {
+        padding: 0 .15rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: .7rem;
+        text-align: left;
+
+    }
+
+    .event-container {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(50%, 1fr));
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+
+    .prize {
+        padding: 0rem 2rem;
+        margin-top: 1rem;
+        text-align: center;
+        border-radius: .5rem;
+        flex-direction: column;
+        background: #1d232647;
+    }
+
+    .flex {
+        width: 70%;
+        height: 19rem;
+    }
+
+    .worth {
+        justify-content: right;
+        padding: 0 .8rem;
+        height: 2rem;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -387,6 +396,7 @@ section {
     }
 
     .title h2 {
+        text-align: center;
         font-size: 1.5rem;
     }
 
@@ -433,7 +443,7 @@ section {
         position: relative;
     }
 
-    
+
 }
 
 @media screen and (max-width: 1010px) {
@@ -591,11 +601,13 @@ nav {
     height: 8vh;
     background: #111519;
 }
-.buttontext{
+
+.buttontext {
     font-size: 1.4rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+
 .button {
     height: 3rem;
     font-family: 'Poppins', sans-serif;
@@ -606,7 +618,7 @@ nav {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    padding: .4rem ;
+    padding: .4rem;
     cursor: pointer;
     width: 18%
 }
@@ -643,10 +655,12 @@ nav {
         font-family: 'Poppins', sans-serif;
         color: slategray;
     }
-    .buttontext{
+
+    .buttontext {
         padding-top: .4rem;
-        font-size:1.1rem;
+        font-size: 1.1rem;
     }
+
     .button {
         margin-top: 10%;
         background-color: #111519;
@@ -818,7 +832,7 @@ nav {
         width: 50%;
 
     }
-    
+
 
 }
 
@@ -920,10 +934,12 @@ nav {
     .head-reg {
         padding: 2rem;
     }
-    .buttontext{
+
+    .buttontext {
         padding-top: .4rem;
-        font-size:.7rem;
+        font-size: .7rem;
     }
+
     .button {
         margin-top: 5%;
         background-color: #111519;
@@ -988,7 +1004,7 @@ nav {
 .name {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .phone-no a {
