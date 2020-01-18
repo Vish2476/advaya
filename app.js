@@ -45,4 +45,5 @@ social_Style.forEach((child) => {
     child.setAttribute('fill-opacity', '0.8')
 
 })
-console.log(copyright.textContent="2020 © Advaya All Rights Reserved")
+copyright.textContent="2020 © Advaya All Rights Reserved"
+copyright.style.color="#1D2326"

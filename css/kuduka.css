@@ -1,4 +1,16 @@
-
+.application{
+  text-align: center;
+  background-color: #1D2326;
+  
+}
+.application a{
+  font-size:1.2rem;
+  z-index: 6;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
 .kuduk-flex{
   z-index: 5;
   top: 40%;
@@ -8,7 +20,7 @@
   width: 15rem;
   height: 15rem;
   }
-  .kuduk-flex p{
+.kuduk-flex p{
     font-size: larger;
     z-index: 5;
     top: 60%;

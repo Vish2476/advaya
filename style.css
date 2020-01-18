@@ -78,7 +78,7 @@ nav {
   width: 100%;
   height: 30vh;
   background-color: #a80404;
-  position:relative;
+  position: relative;
   color: #ffffff;
 }
 
@@ -564,6 +564,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   align-self: flex-start;
 }
+
 .eventimage {
   height: 368px;
   width: 100%;
@@ -708,6 +709,7 @@ nav {
   font-size: .8rem;
   font-family: 'Poppins', sans-serif;
 }
+
 .price-list {
   flex: 1;
 
@@ -721,6 +723,7 @@ nav {
   flex-direction: column;
   background: transparent;
 }
+
 .worth svg {
   height: 1.5rem;
   width: 1.5rem;
@@ -739,11 +742,13 @@ nav {
   align-items: center;
   display: flex;
 }
+
 @media screen and (max-width: 480px) {
   .copy h4 {
     font-size: .6rem;
-    
+
   }
+
   .events {
     left: 50%;
     margin-left: 0%;
@@ -754,7 +759,7 @@ nav {
   .edate h3 {
     font-size: .8rem;
   }
-  
+
 
   .edate {
     margin-bottom: 2rem;
@@ -768,19 +773,22 @@ nav {
   #datval {
     font-size: 1.2em;
   }
-  .cop{
-    width:60%;
+
+  .cop {
+    width: 60%;
   }
-  .cap h2{
-    font-size:2.2rem;
+
+  .cap h2 {
+    font-size: 2.2rem;
   }
 }
 
 @media screen and (max-width: 342px) {
   .copy h4 {
     font-size: .5rem;
-    
+
   }
+
   #kuduka h2 {
 
     font-size: 1.5rem;
@@ -799,7 +807,7 @@ nav {
   top: 50%;
   transform: translate(-50%, -50%);
   border: 2px solid #ffffff;
-  padding:0 2rem;
+  padding: 0 2rem;
 }
 
 .cap h2 {
@@ -838,7 +846,4 @@ nav {
 
   background-size: cover;
 }
-
-
-
 
