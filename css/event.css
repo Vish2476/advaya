@@ -79,6 +79,7 @@ section {
 }
 
 .copy h4 {
+    margin-top: 33%;
     padding: .2rem;
     font-size: .5rem;
     height: 2rem;
@@ -87,6 +88,7 @@ section {
 }
 
 .social {
+    margin-top: 33%;
     position: absolute;
     justify-content: flex-end;
     right: 0;
@@ -246,6 +248,7 @@ section {
 .social li {
     margin: 0 5%;
     align-items: center;
+    
 
 
 }
@@ -263,6 +266,8 @@ section {
     display: block;
     text-align: center;
     position: absolute;
+}
+.social{
 }
 
 .social li:hover svg path {
@@ -385,6 +390,28 @@ section {
         padding: 0 .8rem;
         height: 2rem;
         align-items: center;
+    }
+    .copy h4 {
+        margin-top: 430%;
+        padding: .2rem;
+        font-size: .5rem;
+        height: 2rem;
+        font-family: 'Poppins', sans-serif;
+        color: #919191;
+    }
+    
+    .social {
+        margin-top: 430%;
+        position: absolute;
+        justify-content: flex-end;
+        right: 0;
+        width: fit-content;
+        display: block;
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+        margin-right: 1%;
+    
     }
 }
 
