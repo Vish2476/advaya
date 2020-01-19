@@ -79,7 +79,6 @@ section {
 }
 
 .copy h4 {
-    margin-top: 33%;
     padding: .2rem;
     font-size: .5rem;
     height: 2rem;
@@ -88,7 +87,6 @@ section {
 }
 
 .social {
-    margin-top: 33%;
     position: absolute;
     justify-content: flex-end;
     right: 0;
