@@ -393,7 +393,6 @@ section {
         align-items: center;
     }
     .copy h4 {
-        margin-top: 430%;
         padding: .2rem;
         font-size: .5rem;
         height: 2rem;
@@ -402,7 +401,6 @@ section {
     }
     
     .social {
-        margin-top: 430%;
         position: absolute;
         justify-content: flex-end;
         right: 0;
