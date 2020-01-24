@@ -9,7 +9,7 @@ function(data) {
     var address= data.ip;
     
     form.addEventListener('submit', (e) => {
-        alert("You will be mailed when round three goes live");
+        alert("You will be notified when round four goes live");
         e.preventDefault();
         db.collection('phunt2').doc(form.pno.value).set({
             name: form.pname.value,
