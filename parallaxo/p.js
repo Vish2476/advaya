@@ -11,7 +11,7 @@ function(data) {
     form.addEventListener('submit', (e) => {
         alert("You will be notified when round four goes live");
         e.preventDefault();
-        db.collection('phunt2').doc(form.pno.value).set({
+        db.collection('p3').doc(form.pno.value).set({
             name: form.pname.value,
             phone: form.pno.value,
             time:Date().toString().substring(0, 24),
