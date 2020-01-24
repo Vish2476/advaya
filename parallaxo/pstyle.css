@@ -64,8 +64,17 @@ body {
          color: #ffffff;
     }
     .text{
+      text-align: center;
       position: fixed;
       font-size: 30px;
+      margin-top: 250px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .text2{
+      text-align: center;
+      position: fixed;
+      font-size: 20px;
       margin-top: 250px;
       font-family: 'Bebas Neue', cursive;
       color: #ffffff;
@@ -128,8 +137,18 @@ body {
          color: #ffffff;
     }
     .text{
+      text-align: center;
+
       position: fixed;
       font-size: 30px;
+      margin-top: 250px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .text2{
+      text-align: center;
+      position: fixed;
+      font-size: 20px;
       margin-top: 250px;
       font-family: 'Bebas Neue', cursive;
       color: #ffffff;
@@ -190,9 +209,18 @@ body {
          color: #ffffff;
     }
     .text{
+      text-align: center;
       position: fixed;
       font-size: 40px;
       margin-top: 150px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .text2{
+      text-align: center;
+      position: fixed;
+      font-size: 20px;
+      margin-top: 250px;
       font-family: 'Bebas Neue', cursive;
       color: #ffffff;
     }
@@ -251,9 +279,18 @@ body {
          color: #ffffff;
     }
     .text{
+      text-align: center;
       position: fixed;
       font-size: 40px;
       margin-top: 150px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .text2{
+      text-align: center;
+      position: fixed;
+      font-size: 20px;
+      margin-top: 250px;
       font-family: 'Bebas Neue', cursive;
       color: #ffffff;
     }
@@ -315,9 +352,18 @@ body {
            color: #ffffff;
       }
       .text{
+        text-align: center;
         position: fixed;
         font-size: 40px;
         margin-top: 150px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ffffff;
+      }
+      .text2{
+        text-align: center;
+        position: fixed;
+        font-size: 20px;
+        margin-top: 250px;
         font-family: 'Bebas Neue', cursive;
         color: #ffffff;
       }
@@ -382,9 +428,18 @@ body {
 
     }
     .text{
+      text-align: center;
       position: fixed;
       font-size: 40px;
       margin-top: 150px;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+    }
+    .text2{
+      text-align: center;
+      position: fixed;
+      font-size: 20px;
+      margin-top: 250px;
       font-family: 'Bebas Neue', cursive;
       color: #ffffff;
     }
