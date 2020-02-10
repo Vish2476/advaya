@@ -158,6 +158,9 @@ body {
 
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+    .text{
+        font-size: 12px;
+    }
     .circle2{
         width: 90%;
         position: fixed;
@@ -188,6 +191,9 @@ body {
             cursor: pointer;
           }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    .text{
+        font-size: 12px;
+    }
     .circle2{
         width: 90%;
         position: fixed;
@@ -294,8 +300,11 @@ body {
       
 }
 @media (min-width:1281px) 
-{ /* hi-res laptops and desktops */ 
-    .circle2{
+
+{ 
+    /* hi-res laptops and desktops */ 
+    
+.circle2{
         width: 50%;
         position: fixed;
         animation: rotation 80s infinite linear;
@@ -304,7 +313,7 @@ body {
          margin-left: -20%;
       
 }
-.button2 {
+.button2{
     position: fixed;
     background-color: rgba(197, 0, 0, 0.411);
     border: none;
@@ -318,4 +327,4 @@ body {
     cursor: pointer;
   }
   
-  }
+}
