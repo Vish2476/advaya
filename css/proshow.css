@@ -1,5 +1,5 @@
 .proshow-container {
-    margin: 2% 2% 0 2%;
+    margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     position: relative;
@@ -10,4 +10,5 @@
 
 .proshow-container img {
     width: 100%;
+    padding: 0 2% 0 2%;
 }
