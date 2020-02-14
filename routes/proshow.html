@@ -16,20 +16,20 @@
             padding-bottom: 50px;
             position: relative;
         }
+
         .swiper-slide {
             background-position: center;
             background-size: cover;
             width: 285px;
-            height:285px;
+            height: 285px;
             border-radius: 30px;
         }
-        
-        
-        .footer{
+
+
+        .footer {
             margin-top: 2%;
             position: relative;
         }
-        
     </style>
 </head>
 
@@ -67,12 +67,13 @@
     <section id="eve">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" data-val="1" style="background-image:url(../assets/proshow/harsankar.jpeg)"></div>
+                <div class="swiper-slide" data-val="1" style="background-image:url(../assets/proshow/harsankar.jpeg)">
+                </div>
                 <!-- <div class="swiper-slide" style="background-image:url(../assets/proshow/harsankar.jpeg)"></div> -->
                 <div class="swiper-slide" data-val="2" style="background-image:url(../assets/proshow/urumi.jpeg)"></div>
             </div>
 
-          </div>
+        </div>
 
         <div class="footer">
             <div class="caption">
@@ -125,29 +126,24 @@
     </section>
     <script src="../app.js"></script>
     <script src="../swiper.min.js"></script>
-    
+
     <script>
-        
-
+        let active = document.getElementsByClassName("swiper-slide");
         var swiper = new Swiper('.swiper-container', {
-          effect: 'coverflow',
-          grabCursor: true,
-          centeredSlides: true,
-          slidesPerView: 'auto',
-          coverflowEffect: {
-            rotate: 0,
-            stretch: 0,
-            depth: 100,
-            modifier: 5,
-            slideShadows : true,
-          }
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 5,
+                slideShadows: false,
+            }
         });
 
-        const active=document.querySelector('.swiper-slide-active');
-        active.addEventListener('click',()=>{
-            console.log(active);
-        });
-      </script>
+    </script>
 
 </body>
 

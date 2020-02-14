@@ -5,7 +5,13 @@ const close = document.querySelector('.close');
 const logo = document.querySelector('.logo-container img')
 const social_icon = document.querySelectorAll('.social li a');
 const social_Style = document.querySelectorAll('.social path');
-const copyright=document.querySelector('.copy h4')
+const copyright = document.querySelector('.copy h4');
+
+
+
+
+
+
 
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("open");
@@ -45,5 +51,5 @@ social_Style.forEach((child) => {
     child.setAttribute('fill-opacity', '1')
 
 })
-copyright.textContent="2020 © Advaya All Rights Reserved"
-copyright.style.color="#1D2326"
+copyright.textContent = "2020 © Advaya All Rights Reserved";
+copyright.style.color = "#1D2326";
