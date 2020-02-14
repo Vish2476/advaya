@@ -24,9 +24,7 @@
             border-radius: 30px;
         }
         
-        .section{
-            height: 100vh;
-        }
+        
         .footer{
             margin-top: 2%;
             position: relative;
@@ -69,9 +67,9 @@
     <section id="eve">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(../assets/proshow/harsankar.jpeg)"></div>
+                <div class="swiper-slide" data-val="1" style="background-image:url(../assets/proshow/harsankar.jpeg)"></div>
                 <!-- <div class="swiper-slide" style="background-image:url(../assets/proshow/harsankar.jpeg)"></div> -->
-                <div class="swiper-slide" style="background-image:url(../assets/proshow/urumi.jpeg)"></div>
+                <div class="swiper-slide" data-val="2" style="background-image:url(../assets/proshow/urumi.jpeg)"></div>
             </div>
 
           </div>
@@ -129,6 +127,8 @@
     <script src="../swiper.min.js"></script>
     
     <script>
+        
+
         var swiper = new Swiper('.swiper-container', {
           effect: 'coverflow',
           grabCursor: true,
@@ -141,6 +141,11 @@
             modifier: 5,
             slideShadows : true,
           }
+        });
+
+        const active=document.querySelector('.swiper-slide-active');
+        active.addEventListener('click',()=>{
+            console.log(active);
         });
       </script>
 
