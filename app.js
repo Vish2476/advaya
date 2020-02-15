@@ -6,24 +6,7 @@ const logo = document.querySelector('.logo-container img')
 const social_icon = document.querySelectorAll('.social li a');
 const social_Style = document.querySelectorAll('.social path');
 const copyright = document.querySelector('.copy h4');
-var swiper = new Swiper('.swiper-container', {
-    effect: 'coverflow',
-    grabCursor: false,
-    touchEventsTarget: 'wrapper',
-    simulateTouch: true,
-    slideToClickedSlide: true,
-    centeredSlides: true,
-    loop: true,
-    loopedSlides: 1,
-    slidesPerView: 'auto',
-    coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 100,
-        modifier: 4,
-        slideShadows: false,
-    }
-});
+
 
 
 
