@@ -11,8 +11,6 @@ const copyright = document.querySelector('.copy h4');
 
 
 
-
-
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("open");
     hamburger.style.display = "none";
