@@ -27,9 +27,16 @@ h1{
 }}
 @media (min-width:481px)  { 
 	h1{
-		margin-top: 25%;
-	}/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-
+		margin-top: 55%;
+	}}
+	@media (min-width:1025px) { 
+		h1{
+			margin-top: 20%;
+		}/* big landscape tablets, laptops, and desktops */ }
+	@media (min-width:1281px) { 
+		h1{
+			margin-top: 20%;
+		}/* hi-res laptops and desktops */ }
 #stars {
   width: 1px;
   height: 1px;
