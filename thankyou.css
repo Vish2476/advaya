@@ -23,7 +23,7 @@ h2{
 }
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
 h1{
-	margin-top: 25%;
+	margin-top: 55%;
 }}
 @media (min-width:481px)  { 
 	h1{
